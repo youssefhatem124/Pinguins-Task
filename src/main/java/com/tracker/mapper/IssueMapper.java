@@ -21,10 +21,9 @@ public interface IssueMapper {
 
         issueDto.title( issue.getTitle() );
         issueDto.description( issue.getDescription() );
-        //issueDto.createDate( issue.getCreateDate() );
-     //   issueDto.modifyDate( issue.getModifyDate() );
+
         if(issue.getDeveloper()!=null)
-            issueDto.developerId( issue.getDeveloper().getId());
+            issueDto.developername( issue.getDeveloper().getName());
         return issueDto.build();
     }
 

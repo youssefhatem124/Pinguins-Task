@@ -1,7 +1,6 @@
 package com.tracker.controller;
 
 import com.tracker.dto.DeveloperDto;
-import com.tracker.dto.ValidDroneDto;
 import com.tracker.service.DeveloperService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

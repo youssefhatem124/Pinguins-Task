@@ -21,10 +21,8 @@ public interface StoryMapper {
         StoryDto storyDto = new StoryDto();
         storyDto.setTitle( story.getTitle() );
         storyDto.setDescription( story.getDescription() );
-        //storyDto.setCreateDate( story.getCreateDate() );
-       // storyDto.setModifyDate( story.getModifyDate() );
         if(story.getDeveloper()!=null)
-        storyDto.setDeveloperId( story.getDeveloper().getId());
+        storyDto.setDevelopername( story.getDeveloper().getName());
         storyDto.setStatus(story.getStatus());
         storyDto.setEstimatedPointValue(story.getEstimatedPointValue());
         return storyDto;

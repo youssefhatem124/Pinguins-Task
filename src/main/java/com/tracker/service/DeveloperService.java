@@ -1,8 +1,6 @@
 package com.tracker.service;
 
 import com.tracker.dto.DeveloperDto;
-import com.tracker.dto.ValidDroneDto;
-import com.tracker.entities.Developer;
 
 import java.util.List;
 

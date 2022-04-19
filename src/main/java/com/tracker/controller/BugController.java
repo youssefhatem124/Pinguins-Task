@@ -1,12 +1,8 @@
 package com.tracker.controller;
 
 import com.tracker.dto.BugDto;
-import com.tracker.dto.DeveloperDto;
 import com.tracker.dto.IssueDto;
-import com.tracker.dto.ValidDroneDto;
 import com.tracker.service.BugService;
-import com.tracker.service.DeveloperService;
-import com.tracker.service.IssueService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -65,7 +65,7 @@ public class IssueServiceImpl implements IssueService {
     @Override
     public List<StoryDto> getPlan() {
         int i = 0;
-        List<Story>stories=issueRepository.findAllStories().stream().filter(story -> story.getStatus().equals("Estimated")).collect(Collectors.toList());;
+        List<Story>stories=issueRepository.findAllStories().stream().filter(story -> Objects.equals(story.getStatus(),Status.Estimated)).collect(Collectors.toList());;
         List<Developer>developers=developerRepository.findAll();
         for(Story story:stories)
         {

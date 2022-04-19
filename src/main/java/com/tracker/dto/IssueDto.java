@@ -32,6 +32,6 @@ public class IssueDto {
     @NotNull
     @NotBlank(message = "not allow for empty description")
     private String description;
-    private Integer developerId;
+    private String developername;
 
 }

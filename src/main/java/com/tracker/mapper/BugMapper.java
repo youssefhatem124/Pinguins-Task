@@ -27,7 +27,7 @@ public interface BugMapper {
             bugDto.setStatus(bug.getStatus());
 
         if(bug.getDeveloper()!=null)
-        bugDto.setDeveloperId( bug.getDeveloper().getId());
+        bugDto.setDevelopername( bug.getDeveloper().getName());
         return bugDto;
     }
 }
