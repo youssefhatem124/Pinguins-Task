@@ -15,8 +15,10 @@ Describing the relations between bugs ,Issues and stories
 the algorithm for planning of tasks .
 # Parts I chose to leave out 
 The algorithm could be enhanced more in terms of efficency  but the current one has no flows
+Provide an API for changing the story Status 
 
 # How you would continue to resolve them if you had more time?
 Try to add some machine learning feature to algorithm.
+Povide an api for changing the story life cycle.
 
 
